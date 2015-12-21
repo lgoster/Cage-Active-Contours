@@ -1,0 +1,58 @@
+This README file explains the contents of this folder and how
+to perform the tests. 
+
+The code has been tested under Linux. In order to perform the
+tests you need to install gnuplot. This is due to the fact
+that our code saves data on disc using gnuplot format. Then
+a script is used to generate output images. 
+
+CONTENTS
+
+* src: contains the source code
+* test: contains some examples to test the code
+
+HOW TO COMPILE
+
+1) Go to src folder and type "make". 
+
+2) Go to test folder and compile the genimages.c file
+  
+   $ gcc genimages.c -o genimages
+
+   The latter application is used to generate the output images
+   from the output generated from the code. This is done via
+   gnuplot commands.
+
+HOW TO TEST THE CODE
+
+Go to the test folder. You will see several subfolders within it.
+Just go to the subfolder and execute the script inside it. This
+should execute the Cage Active Contour method using different 
+parameters and input masks. The output images are generated using
+gnuplot.
+
+COMMAND LINE ARGUMENTS
+
+The arguments of the command line of the Cage Active Contours are:
+
+$ cac <model> <image.pgm> <mask.pgm> <cage_init.txt> [<cage_curr.txt>]
+
+where
+
+<model>      the model. May be 1 (mean model) or 2 (gauss model)
+<image.pgm>  the image. A gray-level image to segment in PGM format.
+<mask.pgm>   the mask. A gray-level binary image with the initial contour
+<cage_init.txt>  the initial cage. The cage is given as a formatted text
+             file with (x,y) coordinates of the cage.
+<cage_curr.txt>  the current cage. This is an optional parameter. With
+             this argument the current cage can be given. If specified the
+	     algorithm works as follows: first, the contour is extracted
+	     from the mask image. The affine coordinates of the contour
+	     are computed using cage_init. Then a new contour is obtained
+	     using cage_curr. This new contour and cage_curr are then
+	     input to the optimization stage.
+
+We recommend to take a look at the test folder to see how the application
+is executed.
+
+

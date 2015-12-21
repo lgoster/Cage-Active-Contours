@@ -1,0 +1,290 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALGO_GAUSSIAN	cac.h	133;"	d
+ALGO_MEAN	cac.h	132;"	d
+ALLOWCROSSINGS	parameters.h	5;"	d
+BANDSIZE	parameters.h	6;"	d
+CAC_H	cac.h	2;"	d
+CUBIC_MINIMIZER	tnc.c	1736;"	d	file:
+CUBIC_MINIMIZER2	tnc.c	1764;"	d	file:
+DEFAULTMOVE	parameters.h	10;"	d
+D_FIRST	cac.h	142;"	d
+D_NONE	cac.h	141;"	d
+D_SECOND	cac.h	143;"	d
+D_SECOND_MIXED	cac.h	144;"	d
+EXPAND_SEQUENCE_CONTOUR	utils.c	189;"	d	file:
+FALSE	image_io.c	11;"	d	file:
+FILTER_GAUSS	cac.h	148;"	d
+FILTER_SIMONCELLI	cac.h	147;"	d
+FILTER_SIZE	cac.h	151;"	d
+FILTER_TYPE	cac.h	152;"	d
+GETPTC_EINVAL	tnc.h	/^  GETPTC_EINVAL = 2, \/* Bad input values *\/$/;"	e	enum:__anon2
+GETPTC_EVAL	tnc.h	/^  GETPTC_EVAL   = 1, \/* Function evaluation required *\/$/;"	e	enum:__anon2
+GETPTC_FAIL	tnc.h	/^  GETPTC_FAIL   = 3  \/* No suitable point found *\/$/;"	e	enum:__anon2
+GETPTC_OK	tnc.h	/^  GETPTC_OK     = 0, \/* Suitable point found *\/$/;"	e	enum:__anon2
+LOGDIR	parameters.h	2;"	d
+LOGFILE	parameters.h	3;"	d
+LS_ENOMEM	tnc.h	/^  LS_ENOMEM    = 4, \/* Memory allocation failed *\/$/;"	e	enum:__anon3
+LS_FAIL	tnc.h	/^  LS_FAIL      = 2, \/* No suitable point found *\/$/;"	e	enum:__anon3
+LS_MAXFUN	tnc.h	/^  LS_MAXFUN    = 1, \/* Max. number of function evaluations reach *\/$/;"	e	enum:__anon3
+LS_MAXSTP	tnc.h	/^  LS_MAXSTP    = 5  \/* Max step reached *\/$/;"	e	enum:__anon3
+LS_OK	tnc.h	/^  LS_OK        = 0, \/* Suitable point found *\/$/;"	e	enum:__anon3
+LS_USERABORT	tnc.h	/^  LS_USERABORT = 3, \/* User requested end of minimization *\/$/;"	e	enum:__anon3
+MAX	cac.h	137;"	d
+MAXITER	parameters.h	8;"	d
+MAXMOVE	parameters.h	9;"	d
+MIN	cac.h	138;"	d
+MIN	tnc.c	68;"	d	file:
+M_PI	cac.h	128;"	d
+QUARD_MINIMIZER	tnc.c	1795;"	d	file:
+QUARD_MINIMIZER2	tnc.c	1807;"	d	file:
+SAMPLECONSTRAINTS	parameters.h	11;"	d
+SQR	cac.h	136;"	d
+THRSALPHA	parameters.h	13;"	d
+TNC_CONSTANT	tnc.h	/^  TNC_CONSTANT     =  5, \/* All lower bounds are equal to the upper bounds *\/$/;"	e	enum:__anon5
+TNC_CORRNOTDESC	tnc.h	/^  TNC_CORRNOTDESC  =  9  \/* Added by L. Garrido, correction is not a descent *\/$/;"	e	enum:__anon5
+TNC_EINVAL	tnc.h	/^  TNC_EINVAL       = -2, \/* Invalid parameters (n<0) *\/$/;"	e	enum:__anon5
+TNC_ENOMEM	tnc.h	/^  TNC_ENOMEM       = -3, \/* Memory allocation failed *\/$/;"	e	enum:__anon5
+TNC_FALSE	tnc.h	/^  TNC_FALSE = 0,$/;"	e	enum:__anon1
+TNC_FCONVERGED	tnc.h	/^  TNC_FCONVERGED   =  1, \/* Converged (|f_n-f_(n-1)| ~= 0) *\/$/;"	e	enum:__anon5
+TNC_INFEASIBLE	tnc.h	/^  TNC_INFEASIBLE   = -1, \/* Infeasible (low bound > up bound) *\/$/;"	e	enum:__anon5
+TNC_LOCALMINIMUM	tnc.h	/^  TNC_LOCALMINIMUM =  0, \/* Local minima reach (|pg| ~= 0) *\/$/;"	e	enum:__anon5
+TNC_LSFAIL	tnc.h	/^  TNC_LSFAIL       =  4, \/* Linear search failed *\/$/;"	e	enum:__anon5
+TNC_MAXFUN	tnc.h	/^  TNC_MAXFUN       =  3, \/* Max. number of function evaluations reach *\/$/;"	e	enum:__anon5
+TNC_MINRC	tnc.h	/^  TNC_MINRC        = -3, \/* Constant to add to get the rc_string *\/$/;"	e	enum:__anon5
+TNC_MSG_ALL	tnc.h	/^  TNC_MSG_ALL = TNC_MSG_ITER | TNC_MSG_INFO$/;"	e	enum:__anon4
+TNC_MSG_EXIT	tnc.h	/^  TNC_MSG_EXIT = 8, \/* Exit reasons *\/$/;"	e	enum:__anon4
+TNC_MSG_INFO	tnc.h	/^  TNC_MSG_INFO = 2, \/* Informational messages *\/$/;"	e	enum:__anon4
+TNC_MSG_ITER	tnc.h	/^  TNC_MSG_ITER = 1, \/* One line per iteration *\/$/;"	e	enum:__anon4
+TNC_MSG_NONE	tnc.h	/^  TNC_MSG_NONE = 0, \/* No messages *\/$/;"	e	enum:__anon4
+TNC_MSG_VERS	tnc.h	/^  TNC_MSG_VERS = 4, \/* Version info *\/$/;"	e	enum:__anon4
+TNC_NOPROGRESS	tnc.h	/^  TNC_NOPROGRESS   =  6, \/* Unable to progress *\/$/;"	e	enum:__anon5
+TNC_PRECOND	tnc.h	/^  TNC_PRECOND      =  8, \/* Added by L. Garrido, presmoothing condition *\/$/;"	e	enum:__anon5
+TNC_TRUE	tnc.h	/^  TNC_TRUE = 1$/;"	e	enum:__anon1
+TNC_USERABORT	tnc.h	/^  TNC_USERABORT    =  7, \/* User requested end of minization *\/$/;"	e	enum:__anon5
+TNC_VERSION	tnc.h	48;"	d
+TNC_XCONVERGED	tnc.h	/^  TNC_XCONVERGED   =  2, \/* Converged (|x_n-x_(n-1)| ~= 0) *\/$/;"	e	enum:__anon5
+TRUE	image_io.c	12;"	d	file:
+USES_MINIMIZER	tnc.c	1723;"	d	file:
+VERBOSE	parameters.h	1;"	d
+_TNC_	tnc.h	46;"	d
+affcoord_contour	cac.h	/^  float **affcoord_contour;$/;"	m	struct:resources_common	access:public
+affcoord_ext	cac.h	/^  float **affcoord_ext;$/;"	m	struct:resources_common	access:public
+affcoord_int	cac.h	/^  float **affcoord_int;$/;"	m	struct:resources_common	access:public
+b	cac.h	/^  char *b,*e; \/* Begin and end of the queue *\/$/;"	m	struct:queue	access:public
+cac_circular_convolution	utils.c	/^void cac_circular_convolution(float *input, int npoints, $/;"	f	signature:(float *input, int npoints, float *filter, int length_fil, float *output)
+cac_common	models.c	/^void cac_common($/;"	f	signature:( int algorithm, struct image *img, struct image *mask_in, struct vector *cage_init, struct vector *cage_curr, struct vector *cage_out, struct resources_common *res_common)
+cac_compute_dist_constraints	energy_functions.c	/^double cac_compute_dist_constraints(struct resources_common *res_common, double *xin)$/;"	f	signature:(struct resources_common *res_common, double *xin)
+cac_compute_gradient_mean	energy_functions.c	/^void cac_compute_gradient_mean(struct resources_common *res_common, double *deriv_int, double *deriv_ext)$/;"	f	signature:(struct resources_common *res_common, double *deriv_int, double *deriv_ext)
+cac_compute_mean	energy_functions.c	/^void cac_compute_mean(struct resources_common *res_common)$/;"	f	signature:(struct resources_common *res_common)
+cac_compute_variance2	energy_functions.c	/^void cac_compute_variance2(struct resources_common *res_common, float *s2int, float *s2ext)$/;"	f	signature:(struct resources_common *res_common, float *s2int, float *s2ext)
+cac_contour_blur	utils.c	/^void cac_contour_blur(struct vector *contour)$/;"	f	signature:(struct vector *contour)
+cac_contour_get_interior_contour	utils.c	/^void cac_contour_get_interior_contour($/;"	f	signature:( struct vector *contour, struct image *img, int conn)
+cac_delete_queue	queue.c	/^void cac_delete_queue(q)$/;"	f
+cac_error	utils.c	/^void cac_error(char *str)$/;"	f	signature:(char *str)
+cac_expand_queue	queue.c	/^void cac_expand_queue(q)$/;"	f
+cac_filloutside	utils.c	/^void cac_filloutside(struct image *contour, struct image *mask, struct resources_common *res_common)$/;"	f	signature:(struct image *contour, struct image *mask, struct resources_common *res_common)
+cac_filloutside_queue	utils.c	/^void cac_filloutside_queue(struct image *contour, struct image *mask, struct queue *q)$/;"	f	signature:(struct image *contour, struct image *mask, struct queue *q)
+cac_gaussian	models.c	/^void cac_gaussian(struct image *img, struct image *mask_in, struct vector *cage_init, struct vector *cage_curr, struct vector *cage_out)$/;"	f	signature:(struct image *img, struct image *mask_in, struct vector *cage_init, struct vector *cage_curr, struct vector *cage_out)
+cac_gaussian_evaluate	energy_functions.c	/^int cac_gaussian_evaluate(double *xin, double *f, double *deriv, void *instance)$/;"	f	signature:(double *xin, double *f, double *deriv, void *instance)
+cac_gaussian_filter	utils.c	/^void cac_gaussian_filter(float sigma, float ratio,$/;"	f	signature:(float sigma, float ratio, int max_samples, float **filter, int *nsamples)
+cac_get_affcoord	affcoord.c	/^float **cac_get_affcoord(struct vector *points, struct vector *cagepoints)$/;"	f	signature:(struct vector *points, struct vector *cagepoints)
+cac_get_affcoord_pixel	affcoord.c	/^void cac_get_affcoord_pixel(float v0x, float v0y, float *cage, int cage_size, float *affcoord)$/;"	f	signature:(float v0x, float v0y, float *cage, int cage_size, float *affcoord)
+cac_get_bilinear_interpolation_image	utils.c	/^double cac_get_bilinear_interpolation_image(struct image *in, double xin, double yin)$/;"	f	signature:(struct image *in, double xin, double yin)
+cac_get_elem_queue	queue.c	/^void cac_get_elem_queue(elem, q)$/;"	f
+cac_get_filter_gradient	image_gradient.c	/^struct vector *cac_get_filter_gradient($/;"	f	signature:( int filter_type, int derivative_order, int length, int index)
+cac_get_gradient_images	image_gradient.c	/^void cac_get_gradient_images(struct resources_common *res)$/;"	f	signature:(struct resources_common *res)
+cac_get_queue_nb_elements	queue.c	/^int cac_get_queue_nb_elements(q)$/;"	f
+cac_get_value_image	utils.c	/^double cac_get_value_image(struct image *u, double x, double y)$/;"	f	signature:(struct image *u, double x, double y)
+cac_gradient_images_finite_differences_convolution	image_gradient.c	/^struct image *cac_gradient_images_finite_differences_convolution($/;"	f	signature:( struct image *in, struct vector *filter_x, struct vector *filter_y)
+cac_image_alloc	image.c	/^struct image *cac_image_alloc($/;"	f	signature:( int nrow, int ncol)
+cac_image_clear	image.c	/^void cac_image_clear($/;"	f	signature:( struct image *im, double value)
+cac_image_copy	image.c	/^void cac_image_copy($/;"	f	signature:( struct image *in, struct image *out)
+cac_image_delete	image.c	/^void cac_image_delete($/;"	f	signature:( struct image *image)
+cac_image_line_draw	image.c	/^void cac_image_line_draw(struct image *image, int a0, int b0, int a1, int b1, float c)$/;"	f	signature:(struct image *image, int a0, int b0, int a1, int b1, float c)
+cac_image_new	image.c	/^struct image *cac_image_new()$/;"	f
+cac_imagetovector	utils.c	/^struct vector *cac_imagetovector(struct image *mask)$/;"	f	signature:(struct image *mask)
+cac_imagetovector_count_non_zero	utils.c	/^int cac_imagetovector_count_non_zero(struct image *mask)$/;"	f	signature:(struct image *mask)
+cac_inside_image_support	utils.c	/^int cac_inside_image_support(struct image *u, double x, double y)$/;"	f	signature:(struct image *u, double x, double y)
+cac_interpolate_points_non_uniform_sampling	affcoord.c	/^void cac_interpolate_points_non_uniform_sampling(struct resources_common *res_common)$/;"	f	signature:(struct resources_common *res_common)
+cac_interpolate_points_uniform_sampling	affcoord.c	/^void cac_interpolate_points_uniform_sampling(struct resources_common *res_common)$/;"	f	signature:(struct resources_common *res_common)
+cac_is_queue_empty	queue.c	/^int cac_is_queue_empty(q)$/;"	f
+cac_is_queue_full	queue.c	/^int cac_is_queue_full(q)$/;"	f
+cac_mask_invert	utils.c	/^void cac_mask_invert(struct image *in, struct image *out)$/;"	f	signature:(struct image *in, struct image *out)
+cac_mean	models.c	/^void cac_mean(struct image *img, struct image *mask_in, struct vector *cage_init, struct vector *cage_curr, struct vector *cage_out)$/;"	f	signature:(struct image *img, struct image *mask_in, struct vector *cage_init, struct vector *cage_curr, struct vector *cage_out)
+cac_mean_evaluate	energy_functions.c	/^int cac_mean_evaluate(double *xin, double *f, double *deriv, void *instance)$/;"	f	signature:(double *xin, double *f, double *deriv, void *instance)
+cac_new_queue	queue.c	/^struct queue *cac_new_queue(size_elem, expand_size)$/;"	f
+cac_newton_algorithm	newton_algorithm.c	/^void cac_newton_algorithm($/;"	f	signature:( int n, double *x, tnc_function *proc_evaluate, struct resources_common *res_common)
+cac_pgm_read_image	image_io.c	/^struct image *cac_pgm_read_image(char * name)$/;"	f	signature:(char * name)
+cac_pgm_write_image	image_io.c	/^void cac_pgm_write_image(struct image *image, char * name)$/;"	f	signature:(struct image *image, char * name)
+cac_print_msg	utils.c	/^void cac_print_msg(FILE *fp, const char *pFormat, ... )$/;"	f	signature:(FILE *fp, const char *pFormat, ... )
+cac_progress	tnc_utils.c	/^int cac_progress(double *x, double *pk, double fx, double gnorm, double alpha, int k, void *instance)$/;"	f	signature:(double *x, double *pk, double fx, double gnorm, double alpha, int k, void *instance)
+cac_project_to_imsupport	utils.c	/^void cac_project_to_imsupport(struct image *u, double *x, double *y)$/;"	f	signature:(struct image *u, double *x, double *y)
+cac_put_elem_queue	queue.c	/^void cac_put_elem_queue(elem, q)$/;"	f
+cac_read_points2d	vector_io.c	/^struct vector *cac_read_points2d(char *fname)$/;"	f	signature:(char *fname)
+cac_setup_omega1_omega2	affcoord.c	/^void cac_setup_omega1_omega2(double *xin, int init, struct resources_common *res_common)$/;"	f	signature:(double *xin, int init, struct resources_common *res_common)
+cac_tnc_get_maxstep_linsrch	tnc_utils.c	/^double cac_tnc_get_maxstep_linsrch(int n, double *x, double *pk, void *instance)$/;"	f	signature:(int n, double *x, double *pk, void *instance)
+cac_tnc_get_project_gradient	tnc_utils.c	/^int cac_tnc_get_project_gradient(void *instance)$/;"	f	signature:(void *instance)
+cac_tnc_normalize_gradient	tnc_utils.c	/^void cac_tnc_normalize_gradient(int n, double *g)$/;"	f	signature:(int n, double *g)
+cac_tnc_print_msg	tnc_utils.c	/^void cac_tnc_print_msg(char *msg, void *instance)$/;"	f	signature:(char *msg, void *instance)
+cac_tnc_project_gradient_line_vertex_to_center	tnc_utils.c	/^void cac_tnc_project_gradient_line_vertex_to_center(double *xin, double *g, void *instance)$/;"	f	signature:(double *xin, double *g, void *instance)
+cac_tnc_set_project_gradient	tnc_utils.c	/^void cac_tnc_set_project_gradient(int value, void *instance)$/;"	f	signature:(int value, void *instance)
+cac_tnc_set_uniform_sampling	tnc_utils.c	/^void cac_tnc_set_uniform_sampling(int value, void *instance)$/;"	f	signature:(int value, void *instance)
+cac_tnc_setup_omega1_omega2	tnc_utils.c	/^void cac_tnc_setup_omega1_omega2(double *xin, void *instance)$/;"	f	signature:(double *xin, void *instance)
+cac_update_points_non_uniform_sampling	affcoord.c	/^void cac_update_points_non_uniform_sampling(struct resources_common *res_common, double *xin)$/;"	f	signature:(struct resources_common *res_common, double *xin)
+cac_vector_alloc	vector.c	/^struct vector *cac_vector_alloc($/;"	f	signature:( int N, int dim)
+cac_vector_clear	vector.c	/^void cac_vector_clear($/;"	f	signature:( struct vector *vector, float value)
+cac_vector_delete	vector.c	/^void cac_vector_delete($/;"	f	signature:( struct vector *vector)
+cac_vector_new	vector.c	/^struct vector *cac_vector_new()$/;"	f
+cac_write_points2d	vector_io.c	/^void cac_write_points2d(struct vector *vector, int flag, char *fname)$/;"	f	signature:(struct vector *vector, int flag, char *fname)
+cac_write_raw_image	image_io.c	/^void cac_write_raw_image(struct image *image, char * name)$/;"	f	signature:(struct image *image, char * name)
+cac_xmalloc	utils.c	/^void *cac_xmalloc(size_t size)$/;"	f	signature:(size_t size)
+cage	cac.h	/^  struct vector *cage;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+contour	cac.h	/^  struct vector *contour;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+cx	cac.h	/^  float cx, cy;$/;"	m	struct:resources_common	access:public
+cy	cac.h	/^  float cx, cy;$/;"	m	struct:resources_common	access:public
+dim	cac.h	/^  int dim;$/;"	m	struct:vector	access:public
+e	cac.h	/^  char *b,*e; \/* Begin and end of the queue *\/$/;"	m	struct:queue	access:public
+expand_size	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+fp_log	cac.h	/^  FILE *fp_log;$/;"	m	struct:resources_common	access:public
+fsigndiff	tnc.c	1841;"	d	file:
+gray	cac.h	/^  float *gray;    \/* The Gray level plane (may be NULL) *\/$/;"	m	struct:image	access:public
+image	cac.h	/^struct image {$/;"	s
+image::gray	cac.h	/^  float *gray;    \/* The Gray level plane (may be NULL) *\/$/;"	m	struct:image	access:public
+image::ncol	cac.h	/^  int ncol;       \/* Number of columns (dx) *\/$/;"	m	struct:image	access:public
+image::nrow	cac.h	/^  int nrow;       \/* Number of rows (dy) *\/$/;"	m	struct:image	access:public
+insideim_ext	cac.h	/^  int *insideim_ext;$/;"	m	struct:resources_common	access:public
+insideim_int	cac.h	/^  int *insideim_int;$/;"	m	struct:resources_common	access:public
+interpolated_dist_ext	cac.h	/^  float *interpolated_dist_ext;$/;"	m	struct:resources_common	access:public
+interpolated_dist_int	cac.h	/^  float *interpolated_dist_int;$/;"	m	struct:resources_common	access:public
+interpolated_u_ext	cac.h	/^  float *interpolated_u_ext;$/;"	m	struct:resources_common	access:public
+interpolated_u_int	cac.h	/^  float *interpolated_u_int;$/;"	m	struct:resources_common	access:public
+interpolated_ux_ext	cac.h	/^  float *interpolated_ux_ext;$/;"	m	struct:resources_common	access:public
+interpolated_ux_int	cac.h	/^  float *interpolated_ux_int;$/;"	m	struct:resources_common	access:public
+interpolated_uy_ext	cac.h	/^  float *interpolated_uy_ext;$/;"	m	struct:resources_common	access:public
+interpolated_uy_int	cac.h	/^  float *interpolated_uy_int;$/;"	m	struct:resources_common	access:public
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mask_in	cac.h	/^  struct image *mask_in;$/;"	m	struct:resources_common	typeref:struct:resources_common::image	access:public
+max2	tnc.c	1424;"	d	file:
+max3	tnc.c	1425;"	d	file:
+max_elem	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+mean_ext	cac.h	/^  float mean_ext;$/;"	m	struct:resources_common	access:public
+mean_int	cac.h	/^  float mean_int;$/;"	m	struct:resources_common	access:public
+min2	tnc.c	1423;"	d	file:
+n	cac.h	/^  int n; $/;"	m	struct:resources_common	access:public
+nb_elem	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+ncol	cac.h	/^  int ncol;       \/* Number of columns (dx) *\/$/;"	m	struct:image	access:public
+nrow	cac.h	/^  int nrow;       \/* Number of rows (dy) *\/$/;"	m	struct:image	access:public
+pixels_ext	cac.h	/^  struct vector *pixels_ext;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+pixels_int	cac.h	/^  struct vector *pixels_int;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+point	cac.h	/^struct point {$/;"	s
+point::x	cac.h	/^  int x;$/;"	m	struct:point	access:public
+point::y	cac.h	/^  int y;$/;"	m	struct:point	access:public
+project_gradient	cac.h	/^  int project_gradient;$/;"	m	struct:resources_common	access:public
+queue	cac.h	/^struct queue {  \/* Structure for fifo queue *\/$/;"	s
+queue::b	cac.h	/^  char *b,*e; \/* Begin and end of the queue *\/$/;"	m	struct:queue	access:public
+queue::e	cac.h	/^  char *b,*e; \/* Begin and end of the queue *\/$/;"	m	struct:queue	access:public
+queue::expand_size	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+queue::max_elem	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+queue::nb_elem	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+queue::r	cac.h	/^  char *r, *w; \/* Read and write pointers of the queue *\/$/;"	m	struct:queue	access:public
+queue::size_elem	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+queue::w	cac.h	/^  char *r, *w; \/* Read and write pointers of the queue *\/$/;"	m	struct:queue	access:public
+r	cac.h	/^  char *r, *w; \/* Read and write pointers of the queue *\/$/;"	m	struct:queue	access:public
+resources_common	cac.h	/^struct resources_common $/;"	s
+resources_common::affcoord_contour	cac.h	/^  float **affcoord_contour;$/;"	m	struct:resources_common	access:public
+resources_common::affcoord_ext	cac.h	/^  float **affcoord_ext;$/;"	m	struct:resources_common	access:public
+resources_common::affcoord_int	cac.h	/^  float **affcoord_int;$/;"	m	struct:resources_common	access:public
+resources_common::cage	cac.h	/^  struct vector *cage;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+resources_common::contour	cac.h	/^  struct vector *contour;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+resources_common::cx	cac.h	/^  float cx, cy;$/;"	m	struct:resources_common	access:public
+resources_common::cy	cac.h	/^  float cx, cy;$/;"	m	struct:resources_common	access:public
+resources_common::fp_log	cac.h	/^  FILE *fp_log;$/;"	m	struct:resources_common	access:public
+resources_common::insideim_ext	cac.h	/^  int *insideim_ext;$/;"	m	struct:resources_common	access:public
+resources_common::insideim_int	cac.h	/^  int *insideim_int;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_dist_ext	cac.h	/^  float *interpolated_dist_ext;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_dist_int	cac.h	/^  float *interpolated_dist_int;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_u_ext	cac.h	/^  float *interpolated_u_ext;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_u_int	cac.h	/^  float *interpolated_u_int;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_ux_ext	cac.h	/^  float *interpolated_ux_ext;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_ux_int	cac.h	/^  float *interpolated_ux_int;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_uy_ext	cac.h	/^  float *interpolated_uy_ext;$/;"	m	struct:resources_common	access:public
+resources_common::interpolated_uy_int	cac.h	/^  float *interpolated_uy_int;$/;"	m	struct:resources_common	access:public
+resources_common::mask_in	cac.h	/^  struct image *mask_in;$/;"	m	struct:resources_common	typeref:struct:resources_common::image	access:public
+resources_common::mean_ext	cac.h	/^  float mean_ext;$/;"	m	struct:resources_common	access:public
+resources_common::mean_int	cac.h	/^  float mean_int;$/;"	m	struct:resources_common	access:public
+resources_common::n	cac.h	/^  int n; $/;"	m	struct:resources_common	access:public
+resources_common::pixels_ext	cac.h	/^  struct vector *pixels_ext;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+resources_common::pixels_int	cac.h	/^  struct vector *pixels_int;$/;"	m	struct:resources_common	typeref:struct:resources_common::vector	access:public
+resources_common::project_gradient	cac.h	/^  int project_gradient;$/;"	m	struct:resources_common	access:public
+resources_common::sigma2_ext	cac.h	/^  float sigma2_ext;$/;"	m	struct:resources_common	access:public
+resources_common::sigma2_int	cac.h	/^  float sigma2_int;$/;"	m	struct:resources_common	access:public
+resources_common::size_eff_ext	cac.h	/^  int size_eff_ext;$/;"	m	struct:resources_common	access:public
+resources_common::size_eff_int	cac.h	/^  int size_eff_int;$/;"	m	struct:resources_common	access:public
+resources_common::u	cac.h	/^  struct image *u;$/;"	m	struct:resources_common	typeref:struct:resources_common::image	access:public
+resources_common::uniform_sampling	cac.h	/^  int uniform_sampling;$/;"	m	struct:resources_common	access:public
+resources_common::ux	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::image	access:public
+resources_common::uxx	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+resources_common::uxy	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+resources_common::uy	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+resources_common::uyy	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+sigma2_ext	cac.h	/^  float sigma2_ext;$/;"	m	struct:resources_common	access:public
+sigma2_int	cac.h	/^  float sigma2_int;$/;"	m	struct:resources_common	access:public
+size	cac.h	/^  int size;$/;"	m	struct:vector	access:public
+size_eff_ext	cac.h	/^  int size_eff_ext;$/;"	m	struct:resources_common	access:public
+size_eff_int	cac.h	/^  int size_eff_int;$/;"	m	struct:resources_common	access:public
+size_elem	cac.h	/^  int size_elem, nb_elem, expand_size, max_elem;$/;"	m	struct:queue	access:public
+tnc	tnc.c	/^int tnc(int n, double x[], double *f, double g[], $/;"	f	signature:(int n, double x[], double *f, double g[], tnc_function *function, void *state, double low[], double up[], double scale[], double offset[], int messages, int maxiter, int maxCGit, int maxnfeval, double eta, double stepmx, double accuracy, double fmin, double ftol, double xtol, double pgtol, double rescale, int *nfeval)
+tnc_addConstraint	tnc.c	/^tnc_logical tnc_addConstraint(int n, double x[], double p[], int pivot[],$/;"	f	signature:(int n, double x[], double p[], int pivot[], double low[], double up[], double xscale[], double xoffset[])
+tnc_coercex	tnc.c	/^void tnc_coercex(int n, double x[], double low[], double up[])$/;"	f	signature:(int n, double x[], double low[], double up[])
+tnc_daxpy1	tnc.c	/^void tnc_daxpy1(int n, double da, double dx[], double dy[])$/;"	f	signature:(int n, double da, double dx[], double dy[])
+tnc_dcopy1	tnc.c	/^void tnc_dcopy1(int n, double dx[], double dy[])$/;"	f	signature:(int n, double dx[], double dy[])
+tnc_ddot1	tnc.c	/^double tnc_ddot1(int n, double dx[], double dy[])$/;"	f	signature:(int n, double dx[], double dy[])
+tnc_diagonalScaling	tnc.c	/^void tnc_diagonalScaling(int n, double e[], double v[], double gv[],$/;"	f	signature:(int n, double e[], double v[], double gv[], double r[])
+tnc_direction	tnc.c	/^int tnc_direction(double *zsol, double *diagb,$/;"	f	signature:(double *zsol, double *diagb, double *x, double g[], int n, int maxCGit, int *niter, int maxnfeval, int *nfeval, tnc_logical upd1, double yksk, double yrsr, double *sk, double *yk, double *sr, double *yr, tnc_logical lreset, tnc_function *function, void *state, double xscale[], double xoffset[], double fscale, int *pivot, double accuracy, double gnorm, double xnorm, double low[], double up[])
+tnc_dneg1	tnc.c	/^void tnc_dneg1(int n, double v[])$/;"	f	signature:(int n, double v[])
+tnc_dnrm21	tnc.c	/^double tnc_dnrm21(int n, double dx[])$/;"	f	signature:(int n, double dx[])
+tnc_dxpy1	tnc.c	/^void tnc_dxpy1(int n, double dx[], double dy[])$/;"	f	signature:(int n, double dx[], double dy[])
+tnc_function	tnc.h	/^typedef int tnc_function(double x[], double *f, double g[], void *state);$/;"	t
+tnc_getptc_rc	tnc.h	/^} tnc_getptc_rc;$/;"	t	typeref:enum:__anon2
+tnc_hessianTimesVector	tnc.c	/^int tnc_hessianTimesVector(double v[], double gv[], int n,$/;"	f	signature:(double v[], double gv[], int n, double x[], double g[], tnc_function *function, void *state, double xscale[], double xoffset[], double fscale, double accuracy, double xnorm, double low[], double up[])
+tnc_initPreconditioner	tnc.c	/^int tnc_initPreconditioner(double diagb[], double emat[], int n,$/;"	f	signature:(double diagb[], double emat[], int n, tnc_logical lreset, double yksk, double yrsr, double sk[], double yk[], double sr[], double yr[], tnc_logical upd1)
+tnc_initialStep	tnc.c	/^double tnc_initialStep(double fnew, double fmin, double gtp, double smax)$/;"	f	signature:(double fnew, double fmin, double gtp, double smax)
+tnc_linearSearch	tnc.c	/^tnc_ls_rc tnc_linearSearch(int n, double *low, double *up, double *xscale, double *xoffset, double fscale, int *pivot,$/;"	f	signature:(int n, double *low, double *up, double *xscale, double *xoffset, double fscale, int *pivot, double *x, double *f, double *gfull, double *s, double *stp, double max_step, double dginit, double xtol, int maxnfeval, int *count, tnc_function *function, void *state, int only_line_search)
+tnc_logical	tnc.h	/^} tnc_logical;$/;"	t	typeref:enum:__anon1
+tnc_ls_rc	tnc.h	/^} tnc_ls_rc;$/;"	t	typeref:enum:__anon3
+tnc_mchpr1	tnc.c	/^double tnc_mchpr1(void)$/;"	f	signature:(void)
+tnc_message	tnc.h	/^} tnc_message;$/;"	t	typeref:enum:__anon4
+tnc_minimize	tnc.c	/^tnc_rc tnc_minimize(int n, double x[],$/;"	f	signature:(int n, double x[], double *f, double gfull[], tnc_function *function, void *state, double xscale[], double xoffset[], double *fscale, double low[], double up[], tnc_message messages, int maxCGit, int maxiter, int maxnfeval, int *nfeval, double eta, double stepmx, double accuracy, double fmin, double ftol, double xtol, double pgtol, double rescale)
+tnc_msolve	tnc.c	/^int tnc_msolve(double g[], double y[], int n,$/;"	f	signature:(double g[], double y[], int n, double sk[], double yk[], double diagb[], double sr[], double yr[], tnc_logical upd1, double yksk, double yrsr, tnc_logical lreset)
+tnc_project	tnc.c	/^void tnc_project(int n, double x[], int pivot[])$/;"	f	signature:(int n, double x[], int pivot[])
+tnc_projectConstants	tnc.c	/^void tnc_projectConstants(int n, double x[], double xscale[])$/;"	f	signature:(int n, double x[], double xscale[])
+tnc_rc	tnc.h	/^} tnc_rc;$/;"	t	typeref:enum:__anon5
+tnc_rc_string	tnc.c	/^static char *tnc_rc_string[14] =$/;"	v	file:
+tnc_removeConstraint	tnc.c	/^tnc_logical tnc_removeConstraint(double gtpnew, double gnorm, double pgtolfs,$/;"	f	signature:(double gtpnew, double gnorm, double pgtolfs, double f, double fLastConstraint, double g[], int pivot[], int n)
+tnc_scaleg	tnc.c	/^void tnc_scaleg(int n, double g[], double xscale[], double fscale)$/;"	f	signature:(int n, double g[], double xscale[], double fscale)
+tnc_scalex	tnc.c	/^void tnc_scalex(int n, double x[], double xscale[], double xoffset[])$/;"	f	signature:(int n, double x[], double xscale[], double xoffset[])
+tnc_setConstraints	tnc.c	/^void tnc_setConstraints(int n, double x[], int pivot[], double xscale[],$/;"	f	signature:(int n, double x[], int pivot[], double xscale[], double xoffset[], double low[], double up[])
+tnc_ssbfgs	tnc.c	/^void tnc_ssbfgs(int n, double gamma, double sj[], double hjv[],$/;"	f	signature:(int n, double gamma, double sj[], double hjv[], double hjyj[], double yjsj, double yjhyj, double vsj, double vhyj, double hjp1v[])
+tnc_stepMax	tnc.c	/^double tnc_stepMax(double step, int n, double x[], double dir[],$/;"	f	signature:(double step, int n, double x[], double dir[], int pivot[], double low[], double up[], double xscale[], double xoffset[])
+tnc_unscalex	tnc.c	/^void tnc_unscalex(int n, double x[], double xscale[], double xoffset[])$/;"	f	signature:(int n, double x[], double xscale[], double xoffset[])
+tnc_update_trial_interval	tnc.c	/^int tnc_update_trial_interval($/;"	f	signature:( double *x, double *fx, double *dx, double *y, double *fy, double *dy, double *t, double *ft, double *dt, const double tmin, const double tmax, int *brackt )
+u	cac.h	/^  struct image *u;$/;"	m	struct:resources_common	typeref:struct:resources_common::image	access:public
+uniform_sampling	cac.h	/^  int uniform_sampling;$/;"	m	struct:resources_common	access:public
+ux	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::image	access:public
+uxx	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+uxy	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+uy	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+uyy	cac.h	/^  struct image *ux,*uy,*uxx,*uxy,*uyy;$/;"	m	struct:resources_common	typeref:struct:resources_common::	access:public
+values	cac.h	/^  float *values;$/;"	m	struct:vector	access:public
+vector	cac.h	/^struct vector {$/;"	s
+vector::dim	cac.h	/^  int dim;$/;"	m	struct:vector	access:public
+vector::size	cac.h	/^  int size;$/;"	m	struct:vector	access:public
+vector::values	cac.h	/^  float *values;$/;"	m	struct:vector	access:public
+w	cac.h	/^  char *r, *w; \/* Read and write pointers of the queue *\/$/;"	m	struct:queue	access:public
+x	cac.h	/^  int x;$/;"	m	struct:point	access:public
+y	cac.h	/^  int y;$/;"	m	struct:point	access:public
